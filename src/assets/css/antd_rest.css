@@ -1,0 +1,63 @@
+/* vietnamese */
+
+@font-face {
+  font-family: 'KumbhSans-Medium';
+  src: url(../font/KumbhSans-Medium.woff2) format('woff2');
+}
+/* @font-face {
+  font-family: 'OPPOSans-M';
+  src: url(../font/OPPOSans-M.woff2) format('woff2');
+} */
+
+
+.ant-tooltip-inner {
+  background: #ffffff;
+  /* border: 1px solid #eeeeee; */
+  box-shadow: 0px 0px 10px #eeeeee;
+  color: #878787;
+  border-radius: 16px;
+}
+.ant-tooltip {
+  z-index: 30;
+}
+.ant-tooltip-arrow-content {
+  box-shadow: none;
+  background: white;
+  box-shadow: 0px 0px 10px #eeeeee;
+}
+.ant-slider {
+  padding: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: -1px;
+}
+.ant-slider-track {
+  background-color: #196ea6;
+}
+.ant-slider-handle.ant-tooltip-open {
+  border: none;
+  background: #196ea6;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-top: -4px;
+}
+.ant-slider:hover .ant-slider-track {
+  background: #196ea6;
+}
+.ant-slider-tooltip .ant-tooltip-inner {
+  background: linear-gradient(90deg, #7076a8 0%, #5ca1c7 50%, #82c2ca 100%);
+  color: white;
+  height: 32px;
+  width: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  padding: 0;
+  margin-bottom: -6px !important;
+  box-shadow: none;
+}
+.ant-tooltip-placement-top .ant-tooltip-arrow {
+  display: none;
+}

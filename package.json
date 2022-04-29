@@ -1,0 +1,88 @@
+{
+  "name": "admin",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "@apollo/react-hooks": "^3.1.5",
+    "@ethersproject/providers": "^5.0.9",
+    "@fortawesome/fontawesome-svg-core": "^1.2.30",
+    "@fortawesome/free-solid-svg-icons": "^5.14.0",
+    "@fortawesome/react-fontawesome": "^0.1.11",
+    "@reduxjs/toolkit": "^1.4.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@types/humanize-plus": "^1.8.0",
+    "@types/jest": "^26.0.9",
+    "@types/node": "^14.0.27",
+    "@types/react": "^16.9.46",
+    "@types/react-redux": "^7.1.9",
+    "@uniswap/sdk": "^3.0.3-beta.01",
+    "antd": "^4.16.8",
+    "apollo-boost": "^0.4.9",
+    "axios": "^0.24.0",
+    "bignumber.js": "^9.0.1",
+    "copy-to-clipboard": "^3.3.1",
+    "echarts": "^5.2.1",
+    "ethers": "^5.0.12",
+    "graphql": "^14.7.0",
+    "humanize-plus": "^1.8.2",
+    "i18next": "^19.8.3",
+    "ipfs-api": "^26.1.2",
+    "light-toast": "^0.3.4",
+    "moment": "^2.29.1",
+    "numeral": "^2.0.6",
+    "qs": "^6.10.3",
+    "react": "^16.14.0",
+    "react-circular-progressbar": "^2.0.3",
+    "react-countdown": "^2.2.1",
+    "react-dom": "^16.14.0",
+    "react-feather": "^2.0.8",
+    "react-i18next": "^11.7.3",
+    "react-loading-skeleton": "^2.1.1",
+    "react-redux": "^7.2.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.4.1",
+    "react-spring": "^8.0.27",
+    "redux-localstorage-simple": "^2.3.1",
+    "styled-components": "^5.1.1",
+    "typescript": "^4.1.2",
+    "use-wallet": "^0.8.1",
+    "web3": "^1.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build  --max_old_space_size=8192",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/numeral": "0.0.28",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-router-dom": "^5.1.5",
+    "@types/styled-components": "^5.1.2",
+    "ipfs-api": "^26.1.2",
+    "prettier": "^2.1.1"
+  },
+  "description": "1",
+  "main": "y",
+  "repository": "y",
+  "author": "lixiang",
+  "license": "1"
+}
